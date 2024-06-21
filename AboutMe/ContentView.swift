@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import AVKit
+import AVFoundation
+
 struct ContentView: View {
     @State private var alertTriggered = false
-    let newSwiftColor = UIColor(red: 255, green: 165, blue: 0, alpha: 0.0)
-
+    let avPlayer = AVPlayer(url:  Bundle.main.url(forResource: "IMG_0298 2", withExtension: "mov")!)
     var body: some View {
         
-    
 
         ZStack {
             Color.purple
@@ -23,7 +24,8 @@ struct ContentView: View {
                 Text("azalea tang")
                 Text("16")
                 if alertTriggered {
-                    Image("squat")
+                    VideoPlayer(player: avPlayer)
+
                 }
                 Image("me")
                     .resizable()

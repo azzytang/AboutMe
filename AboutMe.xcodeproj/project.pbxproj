@@ -14,6 +14,7 @@
 		09D784E72C25C67100E3A2D4 /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D784E62C25C67100E3A2D4 /* AboutMeTests.swift */; };
 		09D784F12C25C67100E3A2D4 /* AboutMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D784F02C25C67100E3A2D4 /* AboutMeUITests.swift */; };
 		09D784F32C25C67100E3A2D4 /* AboutMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D784F22C25C67100E3A2D4 /* AboutMeUITestsLaunchTests.swift */; };
+		09D785002C25F09900E3A2D4 /* IMG_0298 2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 09D784FF2C25F09900E3A2D4 /* IMG_0298 2.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		09D784EC2C25C67100E3A2D4 /* AboutMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D784F02C25C67100E3A2D4 /* AboutMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeUITests.swift; sourceTree = "<group>"; };
 		09D784F22C25C67100E3A2D4 /* AboutMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		09D784FF2C25F09900E3A2D4 /* IMG_0298 2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "IMG_0298 2.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		09D784D42C25C66F00E3A2D4 /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
+				09D784FF2C25F09900E3A2D4 /* IMG_0298 2.mov */,
 				09D784D52C25C66F00E3A2D4 /* AboutMeApp.swift */,
 				09D784D72C25C66F00E3A2D4 /* ContentView.swift */,
 				09D784D92C25C67100E3A2D4 /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 			files = (
 				09D784DD2C25C67100E3A2D4 /* Preview Assets.xcassets in Resources */,
 				09D784DA2C25C67100E3A2D4 /* Assets.xcassets in Resources */,
+				09D785002C25F09900E3A2D4 /* IMG_0298 2.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
